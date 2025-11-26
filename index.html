@@ -914,6 +914,115 @@
       display: inline-block;
       transform: translateY(1px);
     }
+
+    /* Product Image Styles */
+    .product-image-container {
+      width: 100%;
+      height: 180px;
+      position: relative;
+      overflow: hidden;
+      border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+    }
+
+    .product-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease-out;
+    }
+
+    .product-card:hover .product-image {
+      transform: scale(1.05);
+    }
+
+    .product-image-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        135deg,
+        rgba(255, 122, 229, 0.75) 0%,
+        rgba(124, 243, 255, 0.6) 100%
+      );
+      mix-blend-mode: multiply;
+      opacity: 0.85;
+      transition: opacity 0.3s ease-out;
+    }
+
+    .product-card:hover .product-image-overlay {
+      opacity: 0.7;
+    }
+
+    /* Different gradient overlays for each product */
+    .product-card[data-product="hustles"] .product-image-overlay {
+      background: linear-gradient(
+        135deg,
+        rgba(255, 198, 107, 0.8) 0%,
+        rgba(255, 122, 229, 0.7) 100%
+      );
+    }
+
+    .product-card[data-product="automation"] .product-image-overlay {
+      background: linear-gradient(
+        135deg,
+        rgba(124, 243, 255, 0.8) 0%,
+        rgba(99, 102, 241, 0.7) 100%
+      );
+    }
+
+    .product-card[data-product="artist"] .product-image-overlay {
+      background: linear-gradient(
+        135deg,
+        rgba(255, 122, 229, 0.8) 0%,
+        rgba(236, 72, 153, 0.7) 100%
+      );
+    }
+
+    .product-card[data-product="landlord"] .product-image-overlay {
+      background: linear-gradient(
+        135deg,
+        rgba(34, 197, 94, 0.75) 0%,
+        rgba(124, 243, 255, 0.7) 100%
+      );
+    }
+
+    .product-card[data-product="studio"] .product-image-overlay {
+      background: linear-gradient(
+        135deg,
+        rgba(168, 85, 247, 0.8) 0%,
+        rgba(255, 122, 229, 0.7) 100%
+      );
+    }
+
+    .product-card[data-product="future"] .product-image-overlay {
+      background: linear-gradient(
+        135deg,
+        rgba(148, 163, 184, 0.65) 0%,
+        rgba(100, 116, 139, 0.65) 100%
+      );
+    }
+
+    .product-content {
+      padding: 18px 18px 20px;
+    }
+
+    /* Pulsing effect on product images */
+    @keyframes pulse-glow {
+      0%, 100% {
+        box-shadow: 0 0 20px rgba(124, 243, 255, 0.3);
+      }
+      50% {
+        box-shadow: 0 0 40px rgba(255, 122, 229, 0.5);
+      }
+    }
+
+    .product-image-container::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+      animation: pulse-glow 3s ease-in-out infinite;
+      pointer-events: none;
+    }
   </style>
 </head>
 <body>
@@ -1061,10 +1170,14 @@
       </p>
 
       <div class="products-grid">
-        <!-- Product 1 -->
-        <article class="product-card">
+        <!-- Product 1: Side Hustles -->
+        <article class="product-card" data-product="hustles">
           <div class="product-image-container">
-            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop" alt="Side Hustles That Make $100/Day Fast" class="product-image" />
+            <img 
+              src="https://images.unsplash.com/photo-1734503937317-3b88a42ac50c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb25leSUyMGdyb3d0aCUyMGxhcHRvcHxlbnwxfHx8fDE3NjQwNTY4MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080" 
+              alt="Side Hustles Blueprint" 
+              class="product-image"
+            />
             <div class="product-image-overlay"></div>
           </div>
           <div class="product-content">
@@ -1082,22 +1195,25 @@
               <li>ChatGPT prompts to speed up everything.</li>
               <li>How to get first paying customers without ads.</li>
             </ul>
-          </div>
-          <div class="product-bottom">
-            <div class="product-price">$19 <span>one-time</span></div>
-            <!-- TODO: Replace # with your checkout link -->
-            <a href="https://buy.stripe.com/8x228rdOA4g0dt80Z76wE00" class="btn-link" target="_blank">
-              <button class="product-cta">
-                Download guide <span class="arrow">➜</span>
-              </button>
-            </a>
+            <div class="product-bottom">
+              <div class="product-price">$19 <span>one-time</span></div>
+              <a href="https://buy.stripe.com/8x228rdOA4g0dt80Z76wE00" class="btn-link" target="_blank">
+                <button class="product-cta">
+                  Download guide <span class="arrow">➜</span>
+                </button>
+              </a>
+            </div>
           </div>
         </article>
 
-        <!-- Product 2 -->
-        <article class="product-card">
+        <!-- Product 2: AI Automation -->
+        <article class="product-card" data-product="automation">
           <div class="product-image-container">
-            <img src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?auto=format&fit=crop&w=1200&q=80" alt="AI Automation Starter Pack" class="product-image" />
+            <img 
+              src="https://images.unsplash.com/photo-1759395162739-84190996783c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBSSUyMHRlY2hub2xvZ3klMjBhdXRvbWF0aW9ufGVufDF8fHx8MTc2NDA1NjgyMnww&ixlib=rb-4.1.0&q=80&w=1080" 
+              alt="AI Automation Pack" 
+              class="product-image"
+            />
             <div class="product-image-overlay"></div>
           </div>
           <div class="product-content">
@@ -1114,21 +1230,25 @@
               <li>Templates for workflows you can copy-paste.</li>
               <li>Faceless systems – your name never has to be public.</li>
             </ul>
-          </div>
-          <div class="product-bottom">
-            <div class="product-price">$17 <span>one-time</span></div>
-            <a href="#checkout-automation" class="btn-link">
-              <button class="product-cta">
-                Download guide <span class="arrow">➜</span>
-              </button>
-            </a>
+            <div class="product-bottom">
+              <div class="product-price">$17 <span>one-time</span></div>
+              <a href="#checkout-automation" class="btn-link">
+                <button class="product-cta">
+                  Download guide <span class="arrow">➜</span>
+                </button>
+              </a>
+            </div>
           </div>
         </article>
 
-        <!-- Product 3 -->
-        <article class="product-card">
+        <!-- Product 3: Artist Growth -->
+        <article class="product-card" data-product="artist">
           <div class="product-image-container">
-            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=300&fit=crop" alt="Artist Growth Blueprint" class="product-image" />
+            <img 
+              src="https://images.unsplash.com/photo-1729709606104-32dbcf34c189?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtdXNpYyUyMHByb2R1Y2VyJTIwaGVhZHBob25lc3xlbnwxfHx8fDE3NjQwMDQyMjB8MA&ixlib=rb-4.1.0&q=80&w=1080" 
+              alt="Artist Growth Blueprint" 
+              class="product-image"
+            />
             <div class="product-image-overlay"></div>
           </div>
           <div class="product-content">
@@ -1145,21 +1265,25 @@
               <li>Reels/TikTok video ideas that actually convert.</li>
               <li>Fan funnel: from listener → follower → paying supporter.</li>
             </ul>
-          </div>
-          <div class="product-bottom">
-            <div class="product-price">$22 <span>one-time</span></div>
-            <a href="#checkout-artist" class="btn-link">
-              <button class="product-cta">
-                Download guide <span class="arrow">➜</span>
-              </button>
-            </a>
+            <div class="product-bottom">
+              <div class="product-price">$22 <span>one-time</span></div>
+              <a href="#checkout-artist" class="btn-link">
+                <button class="product-cta">
+                  Download guide <span class="arrow">➜</span>
+                </button>
+              </a>
+            </div>
           </div>
         </article>
 
-        <!-- Product 4 -->
-        <article class="product-card">
+        <!-- Product 4: Landlord Kit -->
+        <article class="product-card" data-product="landlord">
           <div class="product-image-container">
-            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=500&h=300&fit=crop" alt="Landlord Starter Kit" class="product-image" />
+            <img 
+              src="https://images.unsplash.com/photo-1760561148422-bbb515696fb7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBidWlsZGluZyUyMHJlYWwlMjBlc3RhdGV8ZW58MXx8fHwxNzY0MDU2ODIzfDA&ixlib=rb-4.1.0&q=80&w=1080" 
+              alt="Landlord Starter Kit" 
+              class="product-image"
+            />
             <div class="product-image-overlay"></div>
           </div>
           <div class="product-content">
@@ -1176,21 +1300,25 @@
               <li>Rent ledger layout to keep everything organized.</li>
               <li>Communication scripts to stay firm but professional.</li>
             </ul>
-          </div>
-          <div class="product-bottom">
-            <div class="product-price">$29 <span>one-time</span></div>
-            <a href="#checkout-landlord" class="btn-link">
-              <button class="product-cta">
-                Download kit <span class="arrow">➜</span>
-              </button>
-            </a>
+            <div class="product-bottom">
+              <div class="product-price">$29 <span>one-time</span></div>
+              <a href="#checkout-landlord" class="btn-link">
+                <button class="product-cta">
+                  Download kit <span class="arrow">➜</span>
+                </button>
+              </a>
+            </div>
           </div>
         </article>
 
-        <!-- Product 5 -->
-        <article class="product-card">
+        <!-- Product 5: Recording Studio -->
+        <article class="product-card" data-product="studio">
           <div class="product-image-container">
-            <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500&h=300&fit=crop" alt="Recording Studio Blueprint" class="product-image" />
+            <img 
+              src="https://images.unsplash.com/photo-1613412200862-15142467885d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyZWNvcmRpbmclMjBzdHVkaW8lMjBtaWNyb3Bob25lfGVufDF8fHx8MTc2Mzk3MzQ2NXww&ixlib=rb-4.1.0&q=80&w=1080" 
+              alt="Recording Studio Blueprint" 
+              class="product-image"
+            />
             <div class="product-image-overlay"></div>
           </div>
           <div class="product-content">
@@ -1207,21 +1335,25 @@
               <li>How to price sessions and packages for profit.</li>
               <li>Client experience flow – from DM → booked session.</li>
             </ul>
-          </div>
-          <div class="product-bottom">
-            <div class="product-price">$24 <span>one-time</span></div>
-            <a href="#checkout-studio" class="btn-link">
-              <button class="product-cta">
-                Download blueprint <span class="arrow">➜</span>
-              </button>
-            </a>
+            <div class="product-bottom">
+              <div class="product-price">$24 <span>one-time</span></div>
+              <a href="#checkout-studio" class="btn-link">
+                <button class="product-cta">
+                  Download blueprint <span class="arrow">➜</span>
+                </button>
+              </a>
+            </div>
           </div>
         </article>
 
-        <!-- Optional placeholder card for "coming soon" -->
-        <article class="product-card">
+        <!-- Product 6: Future Drops -->
+        <article class="product-card" data-product="future">
           <div class="product-image-container">
-            <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=500&h=300&fit=crop" alt="Future Drops" class="product-image" />
+            <img 
+              src="https://images.unsplash.com/photo-1758691737584-a8f17fb34475?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdWNjZXNzJTIwY2VsZWJyYXRpb24lMjB3b3Jrc3BhY2V8ZW58MXx8fHwxNzYzOTc0NTIxfDA&ixlib=rb-4.1.0&q=80&w=1080" 
+              alt="Future Blueprint Drops" 
+              class="product-image"
+            />
             <div class="product-image-overlay"></div>
           </div>
           <div class="product-content">
@@ -1237,12 +1369,12 @@
               <li>Automatic email delivery for new drops.</li>
               <li>Discounts for existing customers.</li>
             </ul>
-          </div>
-          <div class="product-bottom">
-            <div class="product-price">$0 <span>included for buyers</span></div>
-            <button class="product-cta" disabled>
-              Coming soon
-            </button>
+            <div class="product-bottom">
+              <div class="product-price">$0 <span>included for buyers</span></div>
+              <button class="product-cta" disabled>
+                Coming soon
+              </button>
+            </div>
           </div>
         </article>
       </div>
