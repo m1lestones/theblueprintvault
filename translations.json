@@ -122,7 +122,17 @@
     "footer_top": "Back to top",
     "footer_faq": "FAQ",
     "footer_terms": "Terms",
-    "footer_privacy": "Privacy"
+    "footer_privacy": "Privacy",
+    "thankyou_title": "Thank you for your purchase 🎉",
+    "thankyou_subtitle": "Your payment was successful. Your Blueprint is on its way to your inbox.",
+    "thankyou_line_1": "✅ Check your email for a receipt from Stripe and a link to your digital download.",
+    "thankyou_line_2": "📩 If you don't see it within a few minutes, check your spam or promotions folder.",
+    "thankyou_email": "blueprintvaultteam@gmail.com",
+    "thankyou_badge_1": "⚡ Instant digital delivery",
+    "thankyou_badge_2": "🔒 Secure Stripe checkout",
+    "thankyou_badge_3": "💾 Lifetime access to your PDF",
+    "thankyou_button_back": "Back to The Vault",
+    "thankyou_button_browse": "Browse more blueprints"
   },
   "es": {
     "nav_guides": "Guías",
@@ -247,7 +257,17 @@
     "footer_top": "Volver al inicio",
     "footer_faq": "Preguntas frecuentes",
     "footer_terms": "Términos",
-    "footer_privacy": "Privacidad"
+    "footer_privacy": "Privacidad",
+    "thankyou_title": "¡Gracias por tu compra! 🎉",
+    "thankyou_subtitle": "Tu pago fue exitoso. Tu Blueprint está en camino a tu correo electrónico.",
+    "thankyou_line_1": "✅ Revisa tu correo electrónico para obtener un recibo de Stripe y un enlace para descargar tu archivo digital.",
+    "thankyou_line_2": "�� Si no lo ves en unos minutos, revisa tu carpeta de spam o promociones.",
+    "thankyou_email": "blueprintvaultteam@gmail.com",
+    "thankyou_badge_1": "⚡ Entrega digital instantánea",
+    "thankyou_badge_2": "🔒 Pago seguro con Stripe",
+    "thankyou_badge_3": "💾 Acceso de por vida a tu PDF",
+    "thankyou_button_back": "Volver a The Vault",
+    "thankyou_button_browse": "Explorar más blueprints"
   },
   "fr": {
     "nav_guides": "Guides",
@@ -372,7 +392,17 @@
     "footer_top": "Retour au sommet",
     "footer_faq": "FAQ",
     "footer_terms": "Conditions",
-    "footer_privacy": "Confidentialité"
+    "footer_privacy": "Confidentialité",
+    "thankyou_title": "Merci pour votre achat 🎉",
+    "thankyou_subtitle": "Votre paiement a réussi. Votre Blueprint est en chemin vers votre boîte de réception.",
+    "thankyou_line_1": "✅ Vérifiez votre email pour un reçu Stripe et un lien pour télécharger votre fichier numérique.",
+    "thankyou_line_2": "📩 Si vous ne le voyez pas dans quelques minutes, consultez votre dossier spam ou promotions.",
+    "thankyou_email": "blueprintvaultteam@gmail.com",
+    "thankyou_badge_1": "⚡ Livraison numérique instantanée",
+    "thankyou_badge_2": "🔒 Paiement sécurisé Stripe",
+    "thankyou_badge_3": "💾 Accès à vie à votre PDF",
+    "thankyou_button_back": "Retour au Vault",
+    "thankyou_button_browse": "Explorer plus de blueprints"
   },
   "de": {
     "nav_guides": "Leitfäden",
@@ -497,7 +527,17 @@
     "footer_top": "Nach oben",
     "footer_faq": "Häufig gestellte Fragen",
     "footer_terms": "Bedingungen",
-    "footer_privacy": "Datenschutz"
+    "footer_privacy": "Datenschutz",
+    "thankyou_title": "Vielen Dank für Ihren Kauf 🎉",
+    "thankyou_subtitle": "Ihre Zahlung war erfolgreich. Ihr Blueprint ist auf dem Weg zu Ihrem Posteingang.",
+    "thankyou_line_1": "✅ Überprüfen Sie Ihre E-Mail auf eine Quittung von Stripe und einen Link zum Herunterladen Ihrer digitalen Datei.",
+    "thankyou_line_2": "📩 Falls Sie diese nicht innerhalb weniger Minuten sehen, überprüfen Sie Ihren Spam- oder Promotions-Ordner.",
+    "thankyou_email": "blueprintvaultteam@gmail.com",
+    "thankyou_badge_1": "⚡ Sofortige digitale Lieferung",
+    "thankyou_badge_2": "🔒 Sichere Stripe-Zahlung",
+    "thankyou_badge_3": "💾 Lebenslanger Zugriff auf Ihr PDF",
+    "thankyou_button_back": "Zurück zum Vault",
+    "thankyou_button_browse": "Weitere Blueprints erkunden"
   },
   "pt": {
     "nav_guides": "Guias",
@@ -622,7 +662,17 @@
     "footer_top": "Voltar ao topo",
     "footer_faq": "Perguntas frequentes",
     "footer_terms": "Termos",
-    "footer_privacy": "Privacidade"
+    "footer_privacy": "Privacidade",
+    "thankyou_title": "Obrigado pela sua compra 🎉",
+    "thankyou_subtitle": "Seu pagamento foi bem-sucedido. Seu Blueprint está a caminho de sua caixa de entrada.",
+    "thankyou_line_1": "✅ Verifique seu e-mail para receber um recibo do Stripe e um link para baixar seu arquivo digital.",
+    "thankyou_line_2": "📩 Se não o vir em alguns minutos, verifique sua pasta de spam ou promoções.",
+    "thankyou_email": "blueprintvaultteam@gmail.com",
+    "thankyou_badge_1": "⚡ Entrega digital instantânea",
+    "thankyou_badge_2": "🔒 Pagamento seguro Stripe",
+    "thankyou_badge_3": "💾 Acesso vitalício ao seu PDF",
+    "thankyou_button_back": "Voltar ao Vault",
+    "thankyou_button_browse": "Explorar mais blueprints"
   },
   "it": {
     "nav_guides": "Guide",
@@ -747,7 +797,17 @@
     "footer_top": "Torna in alto",
     "footer_faq": "Domande frequenti",
     "footer_terms": "Termini",
-    "footer_privacy": "Privacy"
+    "footer_privacy": "Privacy",
+    "thankyou_title": "Grazie per il tuo acquisto 🎉",
+    "thankyou_subtitle": "Il tuo pagamento è stato completato con successo. Il tuo Blueprint è in arrivo nella tua casella di posta.",
+    "thankyou_line_1": "✅ Controlla la tua email per una ricevuta Stripe e un link per scaricare il tuo file digitale.",
+    "thankyou_line_2": "📩 Se non lo vedi entro pochi minuti, controlla la cartella spam o promozioni.",
+    "thankyou_email": "blueprintvaultteam@gmail.com",
+    "thankyou_badge_1": "⚡ Consegna digitale istantanea",
+    "thankyou_badge_2": "🔒 Pagamento Stripe sicuro",
+    "thankyou_badge_3": "💾 Accesso permanente al tuo PDF",
+    "thankyou_button_back": "Torna al Vault",
+    "thankyou_button_browse": "Esplora altri blueprints"
   },
   "nl": {
     "nav_guides": "Gidsen",
@@ -872,7 +932,17 @@
     "footer_top": "Terug naar boven",
     "footer_faq": "Veelgestelde vragen",
     "footer_terms": "Voorwaarden",
-    "footer_privacy": "Privacy"
+    "footer_privacy": "Privacy",
+    "thankyou_title": "Bedankt voor uw aankoop 🎉",
+    "thankyou_subtitle": "Uw betaling was succesvol. Uw Blueprint is onderweg naar uw inbox.",
+    "thankyou_line_1": "✅ Controleer uw e-mail voor een Stripe-ontvangstbewijs en een link om uw digitale bestand te downloaden.",
+    "thankyou_line_2": "📩 Als u dit niet binnen enkele minuten ziet, controleer dan uw spam- of promotionesmapje.",
+    "thankyou_email": "blueprintvaultteam@gmail.com",
+    "thankyou_badge_1": "⚡ Directe digitale levering",
+    "thankyou_badge_2": "🔒 Veilige Stripe-betaling",
+    "thankyou_badge_3": "💾 Levenslang toegang tot uw PDF",
+    "thankyou_button_back": "Terug naar The Vault",
+    "thankyou_button_browse": "Meer blueprints verkennen"
   },
   "pl": {
     "nav_guides": "Przewodniki",
@@ -997,7 +1067,17 @@
     "footer_top": "Powrót do góry",
     "footer_faq": "Pytania i odpowiedzi",
     "footer_terms": "Warunki",
-    "footer_privacy": "Prywatność"
+    "footer_privacy": "Prywatność",
+    "thankyou_title": "Dziękujemy za Twoją zakup 🎉",
+    "thankyou_subtitle": "Twoja płatność przebiegła pomyślnie. Twój Blueprint jest w drodze do Twojej skrzynki odbiorczej.",
+    "thankyou_line_1": "✅ Sprawdź swój e-mail, aby otrzymać potwierdzenie Stripe i link do pobrania pliku cyfrowego.",
+    "thankyou_line_2": "📩 Jeśli go nie widzisz w ciągu kilku minut, sprawdź folder spamu lub promocji.",
+    "thankyou_email": "blueprintvaultteam@gmail.com",
+    "thankyou_badge_1": "⚡ Natychmiastowe dostarczanie cyfrowe",
+    "thankyou_badge_2": "🔒 Bezpieczna płatność Stripe",
+    "thankyou_badge_3": "💾 Dożywotni dostęp do Twojego PDF-a",
+    "thankyou_button_back": "Powrót do Vault",
+    "thankyou_button_browse": "Odkryj więcej blueprintów"
   },
   "ja": {
     "nav_guides": "ガイド",
@@ -1122,7 +1202,17 @@
     "footer_top": "トップに戻る",
     "footer_faq": "よくある質問",
     "footer_terms": "利用規約",
-    "footer_privacy": "プライバシー"
+    "footer_privacy": "プライバシー",
+    "thankyou_title": "ご購入ありがとうございます ��",
+    "thankyou_subtitle": "お支払いが完了しました。あなたのブループリントは間もなく受信ボックスに届きます。",
+    "thankyou_line_1": "✅ メールをチェックして、Stripeのレシートとデジタルダウンロードリンクを取得してください。",
+    "thankyou_line_2": "📩 数分以内に表示されない場合は、スパムまたはプロモーションフォルダを確認してください。",
+    "thankyou_email": "blueprintvaultteam@gmail.com",
+    "thankyou_badge_1": "⚡ 即座のデジタル配信",
+    "thankyou_badge_2": "🔒 安全なStripe決済",
+    "thankyou_badge_3": "💾 PDFへの生涯アクセス",
+    "thankyou_button_back": "Vaultに戻る",
+    "thankyou_button_browse": "他のブループリントを探索"
   },
   "ko": {
     "nav_guides": "가이드",
@@ -1247,7 +1337,17 @@
     "footer_top": "맨 위로 돌아가기",
     "footer_faq": "자주 묻는 질문",
     "footer_terms": "약관",
-    "footer_privacy": "개인정보 보호"
+    "footer_privacy": "개인정보 보호",
+    "thankyou_title": "구매해주셔서 감사합니다 🎉",
+    "thankyou_subtitle": "결제가 완료되었습니다. 블루프린트가 곧 받은편지함으로 전송됩니다.",
+    "thankyou_line_1": "✅ Stripe 영수증과 디지털 다운로드 링크를 받으려면 이메일을 확인하세요.",
+    "thankyou_line_2": "📩 몇 분 이내에 보이지 않으면 스팸 또는 프로모션 폴더를 확인하세요.",
+    "thankyou_email": "blueprintvaultteam@gmail.com",
+    "thankyou_badge_1": "⚡ 즉각적인 디지털 배송",
+    "thankyou_badge_2": "🔒 안전한 Stripe 결제",
+    "thankyou_badge_3": "💾 PDF에 대한 평생 액세스",
+    "thankyou_button_back": "Vault으로 돌아가기",
+    "thankyou_button_browse": "더 많은 블루프린트 탐색"
   },
   "zh": {
     "nav_guides": "指南",
@@ -1372,6 +1472,16 @@
     "footer_top": "返回顶部",
     "footer_faq": "常见问题",
     "footer_terms": "条款",
-    "footer_privacy": "隐私"
+    "footer_privacy": "隐私",
+    "thankyou_title": "感谢您的购买 🎉",
+    "thankyou_subtitle": "您的付款已成功。您的蓝图即将发送到您的收件箱。",
+    "thankyou_line_1": "✅ 检查您的电子邮件以获取 Stripe 收据和数字下载链接。",
+    "thankyou_line_2": "📩 如果您在几分钟内没有看到它，请检查您的垃圾邮件或促销文件夹。",
+    "thankyou_email": "blueprintvaultteam@gmail.com",
+    "thankyou_badge_1": "⚡ 即时数字交付",
+    "thankyou_badge_2": "🔒 安全的 Stripe 付款",
+    "thankyou_badge_3": "💾 PDF 终身访问权限",
+    "thankyou_button_back": "返回保险库",
+    "thankyou_button_browse": "浏览更多蓝图"
   }
 }
