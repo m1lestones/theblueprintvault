@@ -150,6 +150,36 @@ nav {
   color: var(--accent-2);
 }
 
+/* Language Selector */
+.lang-select {
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(5, 8, 22, 0.6);
+  color: var(--text-muted);
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.lang-select:hover {
+  border-color: rgba(255, 255, 255, 0.28);
+  color: var(--text-primary);
+}
+
+.lang-select:focus {
+  outline: none;
+  border-color: var(--accent-2);
+  box-shadow: 0 0 10px rgba(124, 243, 255, 0.3);
+}
+
+@media (max-width: 720px) {
+  .lang-select {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+}
+
 @media (max-width: 720px) {
   .nav-links {
     display: none;

@@ -5,6 +5,7 @@
   <title>The Blueprint Vault – Digital Guides Store</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
+  <script src="language-switcher.js"></script>
   <style>
     /* Global reset */
     * {
@@ -1082,10 +1083,17 @@
         <div class="nav-logo-text">The Blueprint Vault</div>
       </div>
       <div class="nav-links">
-        <a href="#products">Guides</a>
-        <a href="#bundles">Bundles</a>
-        <a href="#how-it-works">How it works</a>
-        <a href="#faq">FAQ</a>
+        <a href="#products" data-i18n="nav_guides">Guides</a>
+        <a href="#bundles" data-i18n="nav_bundles">Bundles</a>
+        <a href="#how-it-works" data-i18n="nav_how">How it works</a>
+        <a href="#faq" data-i18n="nav_faq">FAQ</a>
+        <select id="language-select" class="lang-select">
+          <option value="en">English</option>
+          <option value="es">Español</option>
+          <option value="fr">Français</option>
+          <option value="de">Deutsch</option>
+          <option value="pt">Português</option>
+        </select>
       </div>
     </div>
   </nav>
