@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- ENGLISH HOME -->
+  <url>
+    <loc>https://theblueprintvault.netlify.app/</loc>
+    <lastmod>2025-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.00</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theblueprintvault.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://theblueprintvault.netlify.app/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://theblueprintvault.netlify.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://theblueprintvault.netlify.app/de/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://theblueprintvault.netlify.app/it/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://theblueprintvault.netlify.app/nl/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://theblueprintvault.netlify.app/pl/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://theblueprintvault.netlify.app/pt/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://theblueprintvault.netlify.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://theblueprintvault.netlify.app/ko/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://theblueprintvault.netlify.app/zh/" />
+  </url>
+
+  <!-- SPANISH HOME -->
+  <url>
+    <loc>https://theblueprintvault.netlify.app/es/</loc>
+    <lastmod>2025-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- FRENCH HOME -->
+  <url>
+    <loc>https://theblueprintvault.netlify.app/fr/</loc>
+    <lastmod>2025-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- GERMAN HOME -->
+  <url>
+    <loc>https://theblueprintvault.netlify.app/de/</loc>
+    <lastmod>2025-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- ITALIAN HOME -->
+  <url>
+    <loc>https://theblueprintvault.netlify.app/it/</loc>
+    <lastmod>2025-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- DUTCH HOME -->
+  <url>
+    <loc>https://theblueprintvault.netlify.app/nl/</loc>
+    <lastmod>2025-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- POLISH HOME -->
+  <url>
+    <loc>https://theblueprintvault.netlify.app/pl/</loc>
+    <lastmod>2025-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- PORTUGUESE HOME -->
+  <url>
+    <loc>https://theblueprintvault.netlify.app/pt/</loc>
+    <lastmod>2025-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- JAPANESE HOME -->
+  <url>
+    <loc>https://theblueprintvault.netlify.app/ja/</loc>
+    <lastmod>2025-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- KOREAN HOME -->
+  <url>
+    <loc>https://theblueprintvault.netlify.app/ko/</loc>
+    <lastmod>2025-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- CHINESE HOME -->
+  <url>
+    <loc>https://theblueprintvault.netlify.app/zh/</loc>
+    <lastmod>2025-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- PRODUCT PAGES (ENGLISH) -->
+  <url>
+    <loc>https://theblueprintvault.netlify.app/side-hustles.html</loc>
+    <lastmod>2025-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://theblueprintvault.netlify.app/ai-automation.html</loc>
+    <lastmod>2025-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://theblueprintvault.netlify.app/artist-growth.html</loc>
+    <lastmod>2025-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://theblueprintvault.netlify.app/landlord-kit.html</loc>
+    <lastmod>2025-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://theblueprintvault.netlify.app/recording-studio.html</loc>
+    <lastmod>2025-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- CONTACT PAGE -->
+  <url>
+    <loc>https://theblueprintvault.netlify.app/contact.html</loc>
+    <lastmod>2025-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- THANK YOU PAGE -->
+  <url>
+    <loc>https://theblueprintvault.netlify.app/thankyou.html</loc>
+    <lastmod>2025-11-27</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+  <!-- LEGAL PAGES -->
+  <url>
+    <loc>https://theblueprintvault.netlify.app/privacy.html</loc>
+    <lastmod>2025-11-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.60</priority>
+  </url>
+
+  <url>
+    <loc>https://theblueprintvault.netlify.app/terms.html</loc>
+    <lastmod>2025-11-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.60</priority>
+  </url>
+
+  <url>
+    <loc>https://theblueprintvault.netlify.app/refund.html</loc>
+    <lastmod>2025-11-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.60</priority>
+  </url>
+
+</urlset>
