@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+
+<url>
+  <loc>https://theblueprintvault.netlify.app/</loc>
+  <lastmod>2025-11-27</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.00</priority>
+</url>
+
+<url>
+  <loc>https://theblueprintvault.netlify.app/side-hustles.html</loc>
+  <lastmod>2025-11-27</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.95</priority>
+</url>
+
+<url>
+  <loc>https://theblueprintvault.netlify.app/ai-automation.html</loc>
+  <lastmod>2025-11-27</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.95</priority>
+</url>
+
+<url>
+  <loc>https://theblueprintvault.netlify.app/artist-growth.html</loc>
+  <lastmod>2025-11-27</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.95</priority>
+</url>
+
+<url>
+  <loc>https://theblueprintvault.netlify.app/landlord-kit.html</loc>
+  <lastmod>2025-11-27</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.95</priority>
+</url>
+
+<url>
+  <loc>https://theblueprintvault.netlify.app/recording-studio.html</loc>
+  <lastmod>2025-11-27</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.95</priority>
+</url>
+
+<url>
+  <loc>https://theblueprintvault.netlify.app/thankyou.html</loc>
+  <lastmod>2025-11-27</lastmod>
+  <changefreq>never</changefreq>
+  <priority>0.50</priority>
+</url>
+
+<url>
+  <loc>https://theblueprintvault.netlify.app/contact.html</loc>
+  <lastmod>2025-11-27</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://theblueprintvault.netlify.app/privacy.html</loc>
+  <lastmod>2025-11-27</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.60</priority>
+</url>
+
+<url>
+  <loc>https://theblueprintvault.netlify.app/terms.html</loc>
+  <lastmod>2025-11-27</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.60</priority>
+</url>
+
+<url>
+  <loc>https://theblueprintvault.netlify.app/refund.html</loc>
+  <lastmod>2025-11-27</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.60</priority>
+</url>
+
+</urlset>
