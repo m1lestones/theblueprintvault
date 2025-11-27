@@ -81,15 +81,16 @@
     .nav-logo-badge {
       width: 34px;
       height: 34px;
-      border-radius: 999px;
-      background: radial-gradient(circle at 20% 0, #ff7ae5, #7cf3ff);
       display: flex;
       align-items: center;
       justify-content: center;
-      font-weight: 700;
-      font-size: 17px;
-      color: #050816;
       box-shadow: var(--shadow-soft);
+    }
+
+    .nav-logo-badge svg {
+      width: 100%;
+      height: 100%;
+      display: block;
     }
 
     .nav-logo-text {
@@ -1030,7 +1031,54 @@
   <nav>
     <div class="nav-inner">
       <div class="nav-logo">
-        <div class="nav-logo-badge">B</div>
+        <div class="nav-logo-badge">
+          <svg width="34" height="34" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="geo-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#ff7ae5" />
+                <stop offset="50%" stop-color="#7cf3ff" />
+                <stop offset="100%" stop-color="#ffc66b" />
+              </linearGradient>
+              
+              <filter id="glow">
+                <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                <feMerge>
+                  <feMergeNode in="coloredBlur"/>
+                  <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+              </filter>
+            </defs>
+            
+            <circle cx="50" cy="50" r="48" fill="url(#geo-gradient)"/>
+            
+            <g transform="translate(50, 50)" filter="url(#glow)">
+              <rect x="-18" y="-14" width="36" height="28" rx="2" fill="#050816" opacity="0.3" transform="rotate(-5)"/>
+              <rect x="-18" y="-16" width="36" height="28" rx="2" fill="#050816" opacity="0.5" transform="rotate(3)"/>
+              <rect x="-18" y="-18" width="36" height="30" rx="2" fill="#050816" opacity="0.9"/>
+              
+              <g stroke="#7cf3ff" stroke-width="1.5" opacity="0.8">
+                <line x1="-12" y1="-12" x2="12" y2="-12"/>
+                <line x1="-12" y1="-6" x2="12" y2="-6"/>
+                <line x1="-12" y1="0" x2="8" y2="0"/>
+                <line x1="-12" y1="6" x2="10" y2="6"/>
+              </g>
+              
+              <g transform="translate(0, -5)">
+                <circle cx="0" cy="20" r="5" fill="#ff7ae5"/>
+                <rect x="-1" y="21" width="2" height="4" fill="#ff7ae5"/>
+              </g>
+              
+              <g stroke="#ffc66b" stroke-width="2" opacity="0.6" stroke-linecap="round">
+                <line x1="-35" y1="-35" x2="-28" y2="-35"/>
+                <line x1="-35" y1="-35" x2="-35" y2="-28"/>
+                <line x1="35" y1="35" x2="28" y2="35"/>
+                <line x1="35" y1="35" x2="35" y2="28"/>
+              </g>
+            </g>
+            
+            <circle cx="50" cy="50" r="47" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/>
+          </svg>
+        </div>
         <div class="nav-logo-text">The Blueprint Vault</div>
       </div>
       <div class="nav-links">
